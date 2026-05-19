@@ -325,7 +325,7 @@ Future improvements may include:
 
 ## Author
 
-Hisyam Al Firdaus
+M. Hisyam Al Firdaus
 
 ## License
 
