@@ -1,0 +1,35 @@
+# Dataset dan file besar
+dataset/
+*.zip
+*.rar
+*.7z
+
+# Model hasil training
+model/
+*.h5
+*.keras
+*.pkl
+*.npy
+*.joblib
+
+# CSV hasil proses
+features.csv
+features_binary.csv
+labels.csv
+labels_binary.csv
+
+# Python environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
