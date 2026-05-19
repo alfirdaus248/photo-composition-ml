@@ -1,9 +1,10 @@
-numpy
-pandas
-scikit-learn
-opencv-python
-matplotlib
-pillow
 streamlit
+tensorflow
+numpy
+opencv-python
+pillow
+scikit-learn
+pandas
+matplotlib
 joblib
 tqdm
