@@ -134,7 +134,7 @@ The dataset is not included in this repository because of its large file size. I
 ## Project Structure
 
 ```text
-photo-composition-assessment/
+photo-composition-ml/
 ├── app_mobilenet.py
 ├── train_mobilenet.py
 ├── prepare_labels_binary.py
@@ -144,9 +144,8 @@ photo-composition-assessment/
 ├── model/
 │   ├── mobilenet_composition_model.h5
 │   └── mobilenet_label_classes.npy
-└── assets/
-    ├── app_main.png
-    └── app_recommendation.png
+└── dataset/
+    └── CADB_Dataset/
 ```
 
 ## How It Works
