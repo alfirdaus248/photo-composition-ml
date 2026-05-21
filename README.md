@@ -24,8 +24,18 @@ cd photo-composition-assessment
 
 ### 2. Create a Virtual Environment
 
+This project was tested with Python 3.13.9.
+
+For Windows:
+
 ```bash
-python -m venv venv
+py -3.13 -m venv venv
+```
+
+For macOS or Linux:
+
+```bash
+python3.13 -m venv venv
 ```
 
 ### 3. Activate the Virtual Environment
@@ -41,6 +51,14 @@ For macOS or Linux:
 ```bash
 source venv/bin/activate
 ```
+
+Check the Python version:
+
+```bash
+python --version
+```
+
+It should show Python 3.13.x. Python 3.11 or 3.12 should also work, but Python 3.14 or newer may cause TensorFlow installation issues.
 
 ### 4. Install Dependencies
 
@@ -68,7 +86,7 @@ Recommended Python version:
 Python 3.11, 3.12, or 3.13
 ```
 
-This project was tested with Python 3.13.9. TensorFlow may fail to install on Python 3.14 or newer.
+This project was tested with Python 3.13.9.
 
 Main dependencies:
 
