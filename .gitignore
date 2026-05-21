@@ -1,22 +1,8 @@
-# Dataset dan file besar
+# Dataset
 dataset/
 *.zip
 *.rar
 *.7z
-
-# Model hasil training
-model/
-*.h5
-*.keras
-*.pkl
-*.npy
-*.joblib
-
-# CSV hasil proses
-features.csv
-features_binary.csv
-labels.csv
-labels_binary.csv
 
 # Python environment
 venv/
@@ -24,12 +10,22 @@ venv/
 __pycache__/
 *.pyc
 
-# Jupyter
-.ipynb_checkpoints/
+# Generated CSV files
+features.csv
+features_binary.csv
+labels.csv
+labels_binary.csv
+
+# Old Random Forest model files
+model/*.pkl
+
+# Keep MobileNetV2 model files
+!model/mobilenet_composition_model.h5
+!model/mobilenet_label_classes.npy
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
