@@ -137,10 +137,6 @@ The dataset is not included in this repository because of its large file size. I
 photo-composition-assessment/
 ├── app_mobilenet.py
 ├── train_mobilenet.py
-├── train_model_binary.py
-├── extract_features.py
-├── extract_features_binary.py
-├── prepare_labels.py
 ├── prepare_labels_binary.py
 ├── check_dataset.py
 ├── requirements.txt
