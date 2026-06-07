@@ -1,10 +1,9 @@
 streamlit
 tensorflow
 numpy
-opencv-python
+opencv-python-headless
 pillow
 scikit-learn
 pandas
 matplotlib
 joblib
-tqdm
