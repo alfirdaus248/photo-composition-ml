@@ -440,7 +440,7 @@ def get_prediction_summary(prediction_label):
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model(MODEL_PATH)
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
     labels = np.load(LABEL_PATH, allow_pickle=True)
     return model, labels
 
